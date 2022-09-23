@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import Question from "./Question";
 import quiz from "../data/quiz";
 
@@ -18,6 +18,8 @@ function App() {
       setScore((score) => score + 1);
     }
   }
+
+ 
 
   return (
     <main>
